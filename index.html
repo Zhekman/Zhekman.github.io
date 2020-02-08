@@ -1,0 +1,980 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ирвас</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,700i,800&display=swap&subset=cyrillic"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/reset.css">
+     <link rel="stylesheet" href="css/style.css">
+    </head>
+
+<body>
+
+   
+   
+    <header>
+        <div class="container">
+            <div class="header__wrapper">
+                <div class="header__left">
+                    <div class="logo__img">
+                        <a href="#"> <img src="img/title/logo.png" alt=""></a>
+                    </div>
+                    <a href="#">
+                        <div class="logo__text">
+                            Остекление балконов и лоджий
+                            в Москве и Московской области
+                        </div>
+                    </a>
+                </div>
+                <div class="call">
+                    <a href="#">ВЫЗВАТЬ <br> ЗАМЕРЩИКА</a>
+                </div>
+                <div class="header__right">
+
+                </div>
+                <div class="time__wrapper">
+                    <div class="open__times">без выходных
+                    </div>
+                    <div class="time">
+                        9:00 - 18:00
+                    </div>
+                </div>
+                <div class="calling">
+                    <a href="tel:74956466171">+7 (495) 646-61-71</a>
+                    <a href="#" class="calling__text">Заказать обратный звонок</a>
+                </div>
+            </div>
+        </div>
+        </div>
+    </header>
+    <div class="section__title">
+        <div class="container">
+            <h1>Остекление балконов "под ключ"</h1>
+            <h2>за 12 800 рублей!</h2>
+            <div class="title__advantages-wrapper">
+                <div class="title__advantages-item">
+                    <div class="title__advantages-img quality__img">
+                        <img src="/img/title/quality (4).png" alt="">
+                    </div>
+                    <div class="title__advantages-text">
+                        Высокое
+                        качество
+                    </div>
+                </div>
+                <div class="title__advantages-item ">
+                    <div class="title__advantages-img time__img">
+                        <img src="/img/title/time (1).png" alt="">
+                    </div>
+                    <div class="title__advantages-text">
+                        Быстрый
+                        монтаж
+                    </div>
+                </div>
+                <div class="title__advantages-item">
+                    <div class="title__advantages-img">
+                        <img src="/img/title/adv-3.png" alt="">
+                    </div>
+                    <div class="title__advantages-text">
+                        Гарантия
+                        3 года
+                    </div>
+                </div>
+                <div class="title__advantages-item">
+                    <div class="title__advantages-img">
+                        <img src="/img/title/adv-4.png" alt="">
+                    </div>
+                    <div class="title__advantages-text">
+                        Вывоз
+                        мусора
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div> 
+    <div class="glazing">
+        <div class="container">
+            <div class="title__text">
+                Остекление балконов и лоджий
+            </div>
+            <img class="line" src="/img/line.png" alt="">
+            <div class="tab__glazing">
+                <div class="tablinks" onclick="openGlazing(event, 'wooden')" id="defaultOpen"><img
+                        src="/img/glazing/glass-item-1.png" alt=""><br><a href="#"></a>Деревянное
+                    остекление</div>
+                <div class="tablinks" onclick="openGlazing(event, 'aluminium')"><img src="img/glazing/glass-item-2.png"
+                        alt=""><br><a href="#"></a>Алюминиевое
+                    остекление</div>
+                <div class="tablinks" onclick="openGlazing(event, 'plastic')"><img src="img/glazing/glass-item-3.png"
+                        alt=""><br><a href="#"></a>Остекление
+                    пластиковыми
+                    рамами</div>
+                <div class="tablinks" onclick="openGlazing(event, 'french')"><img src="img/glazing/glass-item-4.png"
+                        alt=""><br><a href="#"></a>Французское остекление (панорамное)
+                </div>
+                <div class="tablinks" onclick="openGlazing(event, 'removal')"><img src="img/glazing/glass-item-3.png"
+                        alt=""><br><a href="#"></a>Остекление
+                    с выносом</div>
+            </div>
+            <div id="wooden" class="tabcontent">
+                <div class="tabcontent__wrapper">
+                    <div class="cold">
+                        <div class="cold__title">
+                            ХОЛОДНОЕ
+                        </div>
+                        <div class="cold__img">
+                            <img src="img/glazing/cold.png" alt="">
+                        </div>
+                        <div class="calc__container">
+                            <ul class="checked__list">
+                                <li> Конструктивная толщина 42-58 мм</li>
+                                <li> Остекление: полированное стекло (толщиной 4 - 5 мм)</li>
+                                <li> Теплоизоляция: 0,07 м2 * С/Вт</li>
+                                <li> Звукоизоляция: 20-27 дб</li>
+                            </ul>
+                            <div class="order__wrapper">
+                                <div class="order__left">
+                                    <div class="order__price">2600 руб.кв.м.</div>
+                                    <div class="order__text">под ключ с установкой</div>
+                                </div>
+                                <div class="order__right">
+                                    <a class="calc" href="#">Рассчитать стоимость</a>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="warm">
+                        <div class="warm__title">
+                            теплое
+                        </div>
+                        <div class="cold__img">
+                            <img src="img/glazing/warm.png" alt="">
+                        </div>
+                        <div class="calc__container">
+                            <ul class="checked__list">
+                                <li> Конструктивная толщина профиля: 58-78 м</li>
+                                <li> Остекление: однокамерные и двухкамерные стеклопакеты</li>
+                                <li> Теплоизоляция: 0,63 - 1,05 м2 * С/Вт</li>
+                                <li> Звукоизоляция: до 5 класса</li>
+                            </ul>
+                            <div class="order__wrapper">
+                                <div class="order__left">
+                                    <div class="order__price">4000 руб.кв.м.</div>
+                                    <div class="order__text">под ключ с установкой</div>
+                                </div>
+                                <div class="order__right">
+                                    <a class="calc" href="#">Рассчитать стоимость</a>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div id="aluminium" class="tabcontent">
+                <div class="tabcontent__wrapper">
+                    <div class="cold">
+                        <div class="cold__title">
+                            ХОЛОДНОЕ
+                        </div>
+                        <div class="cold__img">
+                            <img src="img/glazing/cold.png" alt="">
+                        </div>
+                        <div class="calc__container">
+                            <ul class="checked__list">
+                                <li> Конструктивная толщина 42-58 мм</li>
+                                <li> Остекление: полированное стекло (толщиной 4 - 5 мм)</li>
+                                <li> Теплоизоляция: 0,07 м2 * С/Вт</li>
+                                <li> Звукоизоляция: 20-27 дб</li>
+                            </ul>
+                            <div class="order__wrapper">
+                                <div class="order__left">
+                                    <div class="order__price">3000 руб.кв.м.</div>
+                                    <div class="order__text">под ключ с установкой</div>
+                                </div>
+                                <div class="order__right">
+                                    <a class="calc" href="#">Рассчитать стоимость</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="warm green">
+                        <div class="warm__title">
+                            теплое
+                        </div>
+                        <div class="cold__img">
+                            <img src="img/glazing/warm.png" alt="">
+                        </div>
+                        <div class="calc__container">
+                            <ul class="checked__list">
+                                <li> Конструктивная толщина профиля: 58-78 м</li>
+                                <li> Остекление: однокамерные и двухкамерные стеклопакеты</li>
+                                <li> Теплоизоляция: 0,63 - 1,05 м2 * С/Вт</li>
+                                <li> Звукоизоляция: до 5 класса</li>
+                            </ul>
+                            <div class="order__wrapper">
+                                <div class="order__left">
+                                    <div class="order__price">4500 руб.кв.м.</div>
+                                    <div class="order__text">под ключ с установкой</div>
+                                </div>
+                                <div class="order__right">
+                                    <a class="calc" href="#">Рассчитать стоимость</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="plastic" class="tabcontent">
+                <div class="tabcontent__wrapper">
+                    <div class="cold">
+                        <div class="cold__title">
+                            ХОЛОДНОЕ
+                        </div>
+                        <div class="cold__img">
+                            <img src="img/glazing/cold.png" alt="">
+                        </div>
+                        <div class="calc__container">
+                            <ul class="checked__list">
+                                <li> Конструктивная толщина 42-58 мм</li>
+                                <li> Остекление: полированное стекло (толщиной 4 - 5 мм)</li>
+                                <li> Теплоизоляция: 0,07 м2 * С/Вт</li>
+                                <li> Звукоизоляция: 20-27 дб</li>
+                            </ul>
+                            <div class="order__wrapper">
+                                <div class="order__left">
+                                    <div class="order__price">6000 руб.кв.м.</div>
+                                    <div class="order__text">под ключ с установкой</div>
+                                </div>
+                                <div class="order__right">
+                                    <a class="calc" href="#">Рассчитать стоимость</a>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="warm blueviolet">
+                        <div class="warm__title">
+                            теплое
+                        </div>
+                        <div class="cold__img">
+                            <img src="img/glazing/warm.png" alt="">
+                        </div>
+                        <div class="calc__container">
+                            <ul class="checked__list">
+                                <li> Конструктивная толщина профиля: 58-78 м</li>
+                                <li> Остекление: однокамерные и двухкамерные стеклопакеты</li>
+                                <li> Теплоизоляция: 0,63 - 1,05 м2 * С/Вт</li>
+                                <li> Звукоизоляция: до 5 класса</li>
+                            </ul>
+                            <div class="order__wrapper">
+                                <div class="order__left">
+                                    <div class="order__price">8000 руб.кв.м.</div>
+                                    <div class="order__text">под ключ с установкой</div>
+                                </div>
+                                <div class="order__right">
+                                    <a class="calc" href="#">Рассчитать стоимость</a>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div id="french" class="tabcontent">
+                <div class="tabcontent__wrapper">
+                    <div class="cold">
+                        <div class="cold__title">
+                            ХОЛОДНОЕ
+                        </div>
+                        <div class="cold__img">
+                            <img src="img/glazing/cold.png" alt="">
+                        </div>
+                        <div class="calc__container">
+                            <ul class="checked__list">
+                                <li> Конструктивная толщина 42-58 мм</li>
+                                <li> Остекление: полированное стекло (толщиной 4 - 5 мм)</li>
+                                <li> Теплоизоляция: 0,07 м2 * С/Вт</li>
+                                <li> Звукоизоляция: 20-27 дб</li>
+                            </ul>
+                            <div class="order__wrapper">
+                                <div class="order__left">
+                                    <div class="order__price">7000 руб.кв.м.</div>
+                                    <div class="order__text">под ключ с установкой</div>
+                                </div>
+                                <div class="order__right">
+                                    <a class="calc" href="#">Рассчитать стоимость</a>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="warm red">
+                        <div class="warm__title">
+                            теплое
+                        </div>
+                        <div class="cold__img">
+                            <img src="img/glazing/warm.png" alt="">
+                        </div>
+                        <div class="calc__container">
+                            <ul class="checked__list">
+                                <li> Конструктивная толщина профиля: 58-78 м</li>
+                                <li> Остекление: однокамерные и двухкамерные стеклопакеты</li>
+                                <li> Теплоизоляция: 0,63 - 1,05 м2 * С/Вт</li>
+                                <li> Звукоизоляция: до 5 класса</li>
+                            </ul>
+                            <div class="order__wrapper">
+                                <div class="order__left">
+                                    <div class="order__price">14000 руб.кв.м.</div>
+                                    <div class="order__text">под ключ с установкой</div>
+                                </div>
+                                <div class="order__right">
+                                    <a class="calc" href="#">Рассчитать стоимость</a>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div id="removal" class="tabcontent">
+                <div class="tabcontent__wrapper">
+                    <div class="cold">
+                        <div class="cold__title">
+                            ХОЛОДНОЕ
+                        </div>
+                        <div class="cold__img">
+                            <img src="img/glazing/cold.png" alt="">
+                        </div>
+                        <div class="calc__container">
+                            <ul class="checked__list">
+                                <li> Конструктивная толщина 42-58 мм</li>
+                                <li> Остекление: полированное стекло (толщиной 4 - 5 мм)</li>
+                                <li> Теплоизоляция: 0,07 м2 * С/Вт</li>
+                                <li> Звукоизоляция: 20-27 дб</li>
+                            </ul>
+                            <div class="order__wrapper">
+                                <div class="order__left">
+                                    <div class="order__price">9000 руб.кв.м.</div>
+                                    <div class="order__text">под ключ с установкой</div>
+                                </div>
+                                <div class="order__right">
+                                    <a class="calc" href="#">Рассчитать стоимость</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="warm lime">
+                        <div class="warm__title">
+                            теплое
+                        </div>
+                        <div class="cold__img">
+                            <img src="img/glazing/warm.png" alt="">
+                        </div>
+                        <div class="calc__container">
+                            <ul class="checked__list">
+                                <li> Конструктивная толщина профиля: 58-78 м</li>
+                                <li> Остекление: однокамерные и двухкамерные стеклопакеты</li>
+                                <li> Теплоизоляция: 0,63 - 1,05 м2 * С/Вт</li>
+                                <li> Звукоизоляция: до 5 класса</li>
+                            </ul>
+                            <div class="order__wrapper">
+                                <div class="order__left">
+                                    <div class="order__price">24000 руб.кв.м.</div>
+                                    <div class="order__text">под ключ с установкой</div>
+                                </div>
+                                <div class="order__right">
+                                    <a class="calc" href="#">Рассчитать стоимость</a>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- </div>
+    </div>
+    </div>
+    </div> -->
+    </div>
+    <div class="finish">
+        <div class="container">
+            <div class="title__text">ЗАКАЖИТЕ ОТДЕЛКУ БАЛКОНА СО СКИДКОЙ 60%!
+            </div>
+            <img class="line" src="img/line.png" alt="">
+            <div class="balkony__main-wrapper">
+                <div class="tab__balkony">
+                    <a class="tablinks__finish" onclick="openBalkony(event, 'Inside')" id="defaultOpen-b">ВНУТРЕННЯЯ
+                        ОТДЕЛКА</a>
+                    <a class="tablinks__finish" onclick="openBalkony(event, 'Outside')">ВНЕШНЯЯ ОТДЕЛКА</a>
+                    <a class="tablinks__finish" onclick="openBalkony(event, 'Removal__b')">ВЫНОСНОЕ ОСТЕКЛЕНИЕ</a>
+                    <a class="tablinks__finish" onclick="openBalkony(event, 'Roof')">КРЫША НА БАЛКОН</a>
+                </div>
+                <div id="Inside" class="tabcontent__finish">
+                    <div class="balkony__wrapper">
+                        <div class="balcony__left">
+                            <img src="img/finish/big.png" alt="">
+                        </div>
+                        <div class="balcony__right">
+                            <div class="material__wrapper">
+                                <div class="material__img">
+                                    <a href="#">
+                                        <img src="img/finish/img-1.png" alt="">
+                                        <div class="material__tile">Вагонка
+                                        </div>
+                                        <div class="material__price">600 руб. кв.м.
+                                        </div>
+                                        <div class="material__text">с материалом</div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="material__wrapper">
+                                <div class="material__img">
+                                    <a href="#"> <img src="img/finish/img-2.png" alt="">
+                                        <div class="material__tile">Пластиковая вагонка
+                                        </div>
+                                        <div class="material__price">600 руб. кв.м.
+                                        </div>
+                                        <div class="material__text">с материалом</div>
+                                    </a>
+
+                                </div>
+                            </div>
+                            <div class="material__wrapper">
+                                <div class="material__img">
+                                    <a href="#">
+                                        <img src="img/finish/img-3.png" alt="">
+                                        <div class="material__tile">ПВХ-панели
+                                        </div>
+                                        <div class="material__price">600 руб. кв.м.
+                                        </div>
+                                        <div class="material__text">с материалом</div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="material__wrapper">
+                                <div class="material__img">
+                                    <a href="#">
+                                        <img src="img/finish/img-4.png" alt="">
+                                        <div class="material__tile">Настил пола из ламината
+                                        </div>
+                                        <div class="material__price">600 руб. кв.м.
+                                        </div>
+                                        <div class="material__text">с материалом</div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="material__wrapper">
+                                <div class="material__img">
+                                    <a href="#">
+                                        <img src="img/finish/img-5.png" alt="">
+                                        <div class="material__tile">Настил пола   из дерева
+                                        </div>
+                                        <div class="material__price">600 руб. кв.м.
+                                        </div>
+                                        <div class="material__text">с материалом</div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="Outside" class="tabcontent__finish">
+                    <div class="balkony__wrapper">
+                        <div class="balcony__left">
+                            <img src="img/finish/big.png" alt="">
+                        </div>
+                        <div class="balcony__right">
+                            <div class="material__wrapper">
+                                <div class="material__img">
+                                    <a href="#">
+                                        <img src="img/finish/img-1.png" alt="">
+                                        <div class="material__tile">Вагонка
+                                        </div>
+                                        <div class="material__price">600 руб. кв.м.
+                                        </div>
+                                        <div class="material__text">с материалом</div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="material__wrapper">
+                                <div class="material__img">
+                                    <a href="#"> <img src="img/finish/img-2.png" alt="">
+                                        <div class="material__tile">Пластиковая       вагонка
+                                        </div>
+                                        <div class="material__price">600 руб. кв.м.
+                                        </div>
+                                        <div class="material__text">с материалом</div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="material__wrapper">
+                                <div class="material__img">
+                                    <a href="#">
+                                        <img src="img/finish/img-3.png" alt="">
+                                        <div class="material__tile">ПВХ-панели
+                                        </div>
+                                        <div class="material__price">600 руб. кв.м.
+                                        </div>
+                                        <div class="material__text">с материалом</div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="material__wrapper">
+                                <div class="material__img">
+                                    <a href="#">
+                                        <img src="img/finish/img-4.png" alt="">
+                                        <div class="material__tile">Настил пола из ламината
+                                        </div>
+                                        <div class="material__price">600 руб. кв.м.
+                                        </div>
+                                        <div class="material__text">с материалом</div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="material__wrapper">
+                                <div class="material__img">
+                                    <a href="#">
+                                        <img src="img/finish/img-5.png" alt="">
+                                        <div class="material__tile">Настил пола из дерева
+                                        </div>
+                                        <div class="material__price">600 руб. кв.м.
+                                        </div>
+                                        <div class="material__text">с материалом</div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="Removal__b" class="tabcontent__finish">
+                    <div class="balkony__wrapper">
+                        <div class="balcony__left">
+                            <img src="img/finish/big.png" alt="">
+                        </div>
+                        <div class="balcony__right">
+                            <div class="material__wrapper">
+                                <div class="material__img">
+                                    <a href="#">
+                                        <img src="img/finish/img-1.png" alt="">
+                                        <div class="material__tile">Вагонка
+                                        </div>
+                                        <div class="material__price">600 руб. кв.м.
+                                        </div>
+                                        <div class="material__text">с материалом</div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="material__wrapper">
+                                <div class="material__img">
+                                    <a href="#"> <img src="img/finish/img-2.png" alt="">
+                                        <div class="material__tile">Пластиковая вагонка
+                                        </div>
+                                        <div class="material__price">600 руб. кв.м.
+                                        </div>
+                                        <div class="material__text">с материалом</div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="material__wrapper">
+                                <div class="material__img">
+                                    <a href="#">
+                                        <img src="img/finish/img-3.png" alt="">
+                                        <div class="material__tile">ПВХ-панели
+                                        </div>
+                                        <div class="material__price">600 руб. кв.м.
+                                        </div>
+                                        <div class="material__text">с материалом</div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="material__wrapper">
+                                <div class="material__img">
+                                    <a href="#">
+                                        <img src="img/finish/img-4.png" alt="">
+                                        <div class="material__tile">Настил пола из ламината
+                                        </div>
+                                        <div class="material__price">600 руб. кв.м.
+                                        </div>
+                                        <div class="material__text">с материалом</div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="material__wrapper">
+                                <div class="material__img">
+                                    <a href="#">
+                                        <img src="img/finish/img-5.png" alt="">
+                                        <div class="material__tile">Настил пола из дерева
+                                        </div>
+                                        <div class="material__price">600 руб. кв.м.
+                                        </div>
+                                        <div class="material__text">с материалом</div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="Roof" class="tabcontent__finish">
+                    <div class="balkony__wrapper">
+                        <div class="balcony__left">
+                            <img src="img/finish/big.png" alt="">
+                        </div>
+                        <div class="balcony__right">
+                            <div class="material__wrapper">
+                                <div class="material__img">
+                                    <a href="#">
+                                        <img src="img/finish/img-1.png" alt="">
+                                        <div class="material__tile">Вагонка
+                                        </div>
+                                        <div class="material__price">600 руб. кв.м.
+                                        </div>
+                                        <div class="material__text">с материалом</div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="material__wrapper">
+                                <div class="material__img">
+                                    <a href="#"> <img src="img/finish/img-2.png" alt="">
+                                        <div class="material__tile">Пластиковая вагонка
+                                        </div>
+                                        <div class="material__price">600 руб. кв.м.
+                                        </div>
+                                        <div class="material__text">с материалом</div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="material__wrapper">
+                                <div class="material__img">
+                                    <a href="#">
+                                        <img src="img/finish/img-3.png" alt="">
+                                        <div class="material__tile">ПВХ-панели
+                                        </div>
+                                        <div class="material__price">600 руб. кв.м.
+                                        </div>
+                                        <div class="material__text">с материалом</div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="material__wrapper">
+                                <div class="material__img">
+                                    <a href="#">
+                                        <img src="img/finish/img-4.png" alt="">
+                                        <div class="material__tile">Настил пола из ламината
+                                        </div>
+                                        <div class="material__price">600 руб. кв.м.
+                                        </div>
+                                        <div class="material__text">с материалом</div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="material__wrapper">
+                                <div class="material__img">
+                                    <a href="#">
+                                        <img src="img/finish/img-5.png" alt="">
+                                        <div class="material__tile">Настил пола из дерева
+                                        </div>
+                                        <div class="material__price">600 руб. кв.м.
+                                        </div>
+                                        <div class="material__text">с материалом</div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="Outside" class="tabcontent__finish">
+                    <h3>Paris</h3>
+                    <p>Paris is the capital of France.</p>
+                </div>
+                <div id="Removal__b" class="tabcontent__finish">
+                    <h3>Tokyhhho</h3>
+                    <p>Tokyo is the l of Japan.</p>
+                </div>
+                <div id="Roof" class="tabcontent__finish">
+                    <h3>Tokyhhho</h3>
+                    <p>Tokyo is of Japan.</p>
+                </div>
+            </div>
+
+
+
+
+        </div>
+    </div>
+    <div class="portfolio">
+        <div class="container">
+            <div class="title__text">
+                Наши работы
+            </div>
+            <img class="line" src="img/line.png" alt="">
+            <div class="gallery__wrapper">
+                <div class="gallery__item">
+                    <img class="gallery__img" src="img/gallery/gallery-img-1.png" alt="">
+                </div>
+                <div class="gallery__item">
+                    <img class="gallery__img" src="img/gallery/gallery-img-2.png" alt="">
+                </div>
+                <div class="gallery__item">
+                    <img class="gallery__img" src="img/gallery/gallery-img-3.png" alt="">
+                </div>
+                <div class="gallery__item">
+                    <img class="gallery__img" src="img/gallery/gallery-img-4.png" alt="">
+                </div>
+                <div class="gallery__item">
+                    <img class="gallery__img" src="img/gallery/gallery-img-5.png" alt="">
+                </div>
+                <div class="gallery__item">
+                    <img class="gallery__img" src="img/gallery/gallery-img-6.png" alt="">
+                </div>
+                <div class="gallery__item">
+                    <img class="gallery__img" src="img/gallery/gallery-img-7.png" alt="">
+                </div>
+                <div class="gallery__item">
+                    <img class="gallery__img" src="img/gallery/gallery-img-8.png" alt="">
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+    <div class="guaranties">
+        <div class="container">
+            <div class="guaranties__title">МЫ ГАРАНТИРУЕМ ВАМ
+            </div>
+            <img class="line__white" src="img/guaranties/line-white.png">
+            <div class="guaranties__items-wrapper">
+                <div class="guaranties__item">
+                    <div class="guaranties__img">
+                        <img src="img/guaranties/guar-1.png" alt="">
+                    </div>
+                    <div class="guaranties__text">
+                        Высокое качество
+                    </div>
+                </div>
+                <div class="guaranties__item">
+                    <div class="guaranties__img">
+                        <img src="img/guaranties/guar-2.png" alt="">
+                    </div>
+                    <div class="guaranties__text">
+                        Выполнение работ под ключ
+                    </div>
+                </div>
+                <div class="guaranties__item">
+                    <div class="guaranties__img">
+                        <img src="img/guaranties/guar-3.png" alt="">
+                    </div>
+                    <div class="guaranties__text">
+                        Монтаж в короткие сроки
+                    </div>
+                </div>
+                <div class="guaranties__item">
+                    <div class="guaranties__img">
+                        <img src="img/guaranties/guar-4.png" alt="">
+                    </div>
+                    <div class="guaranties__text">
+                        Цены от производителя
+                    </div>
+                </div>
+                <div class="guaranties__item">
+                    <div class="guaranties__img">
+                        <img src="img/guaranties/guar-5.png" alt="">
+                    </div>
+                    <div class="guaranties__text">
+                        Бесплатный замер и консультацию
+                    </div>
+                </div>
+                <div class="guaranties__item">
+                    <div class="guaranties__img">
+                        <img src="img/guaranties/guar-6.png" alt="">
+                    </div>
+                    <div class="guaranties__text">
+                        Тепло и уют на балконе
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="payment">
+        <div class="container">
+            <div class="title__text">
+                Вы можете оплатить наши услуги:
+            </div>
+            <div class="payment__items-wrapper">
+                <div class="payment__item">
+                    <div class="payment__img">
+                        <img src="img/payment/payment-1.png" alt="">
+                    </div>
+                    <div class="payment__text">Наличными</div>
+                </div>
+                <div class="payment__item">
+                    <div class="payment__img">
+                        <img src="img/payment/payment-2.png" alt="">
+                    </div>
+                    <div class="payment__text">Банковской картой</div>
+                </div>
+                <div class="payment__item">
+                    <div class="payment__img">
+                        <img src="img/payment/payment-3.png" alt="">
+                    </div>
+                    <div class="payment__text">Безналичный расчет</div>
+                </div>
+            </div>
+        </div>
+        <div class="stock">
+            <div class="container">
+                <div class="stock__title">
+                    АКЦИЯ - 60%
+                </div>
+                <div class="stock__text">Успей сэкономить на остеклении! Только до 43 апреля! </div>
+                <div class="eTimer"></div>
+            </div>
+        </div>
+
+    </div>
+    <div class="find__us">
+        <div class="container">
+            <div class="title__text">
+                КАК НАС НАЙТИ
+            </div>
+            <img class="line" src="img/line.png" alt="">
+            <div class="adress__wrapper">
+                <div class="map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2235.2618174047216!2d37.602909216051536!3d55.92749898597185!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b53a0ac32d875f%3A0xe1064c1e68c2b74a!2z0YPQuy4g0JLRi9GB0YLQsNCy0L7Rh9C90LDRjywgNTMsINCS0LXRiNC60LgsINCc0L7RgdC60L7QstGB0LrQsNGPINC-0LHQuy4sINCg0L7RgdGW0Y8sIDEyNzU0Mw!5e0!3m2!1suk!2sua!4v1580739435927!5m2!1suk!2sua" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+                </div>
+                <div class="adress">
+                    <div class="text__blue">
+                        Юридический адрес:
+                    </div>
+                    <div class="text__black">ООО «ИРВАС», 127411, г.Москва, Дмитровское
+                        шоссе, д.125, корпус 1</div>
+                        <div class="text__blue">
+                            Фактический адрес:
+
+                        </div>
+                        <div class="text__black">ООО «ИРВАС», 141031, МО, Мытищинский р-он, п.Вешки,Выставочная, д.53</div>
+                            <div class="text__blue">
+                                Телефон:
+                            </div>
+                            <div class="text__black"> <a href="tel:74956466171"></a> +7 (495) 646-61- 71 (многоканальный)
+                               </div>
+                                <div class="text__blue">
+                                    E-mail:
+                                </div>
+                                <div class="text__black"><a href="email:info@irvasokna.ru
+                                    ">info@irvasokna.ru</a></div>
+                                    <div class="text__blue">
+                                        Режим работы:
+
+                                    </div>
+                                    <div class="text__black">9:00 - 18:00 без выходных</div>
+                                    
+                </div>
+              
+            </div>
+        </div>
+    </div>
+    <div class="callback">
+        <div class="container">
+            <div class="callback__wrapper">
+                <div class="callback__text">Остались вопросы? </div>
+                <div class="callback__link">
+                    <a href="tel:74956466171">Спросите у нашего специалиста!</a>
+                                </div>
+            </div>
+           
+        </div>
+            </div>
+            <div class="footer">
+                <div class="container">
+                    <div class="footer__left">
+                        2017 © Ирвас окна
+    Работаем без выходных
+    
+                    </div>
+                    <div class="logo__img">
+                        <a href="#"> <img src="img/title/logo.png" alt=""></a>
+                    </div>
+                    <div class="footer__right">
+                        <a href="tel:74956466171">+7 (495) 646-61-71</a>
+                        <a href="email:info@irvasokna.ru
+                                        ">info@irvasokna.ru</a>
+                    </div>
+                </div>
+              
+            </div>
+
+            <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+            <script src="https://e-timer.ru/js/etimer.js"></script>
+            <script type="text/javascript">
+                jQuery(document).ready(function() {
+                    jQuery(".eTimer").eTimer({
+                        etType: 0, etDate: "23.04.2020.0.0", etTitleText: "ДО ЗАВЕРШЕНИЯ АКЦИИ:", etTitleSize: 20, etShowSign: 1, etSep: " ", etFontFamily: "Open Sans", etTextColor: "black", etPaddingTB: 23, etPaddingLR: 18, etBackground: "white", etBorderSize: 0, etBorderRadius: 2, etBorderColor: "white", etShadow: "inset 0px 0px 0px 0px #333333", etLastUnit: 4, etNumberFontFamily: "Open Sans", etNumberSize: 28, etNumberColor: "white", etNumberPaddingTB: 5, etNumberPaddingLR: 6, etNumberBackground: "#141414", etNumberBorderSize: 0, etNumberBorderRadius: 0, etNumberBorderColor: "#7b1414", etNumberShadow: "inset 0px 0px 10px 0px rgba(0, 0, 0, 0.5)"
+                    });
+                });
+            </script>
+         
+
+
+
+
+    
+    <script src="js/jquery.plugin.min.js"></script>
+       <script>
+        $(function () {
+            var austDay = new Date();
+            austDay = new Date(austDay.getFullYear() + 1, 1 - 1, 26);
+            $('#defaultCountdown').countdown({
+                until: austDay
+            });
+            $('#year').text(austDay.getFullYear());
+        });
+    </script>
+    <script>
+        function openGlazing(evt, glassName) {
+            var i, tabcontent, tablinks;
+            tabcontent = document.getElementsByClassName("tabcontent");
+            for (i = 0; i < tabcontent.length; i++) {
+                tabcontent[i].style.display = "none";
+            }
+            tablinks = document.getElementsByClassName("tablinks");
+            for (i = 0; i < tablinks.length; i++) {
+                tablinks[i].className = tablinks[i].className.replace(" active", "");
+            }
+            document.getElementById(glassName).style.display = "block";
+            evt.currentTarget.className += " active";
+        }
+        document.getElementById("defaultOpen").click();
+    </script>
+    <script>
+        function openBalkony(evt, finishName) {
+            var i, tabcontent__finish, tablinks__finish;
+            tabcontent__finish = document.getElementsByClassName("tabcontent__finish");
+            for (i = 0; i < tabcontent__finish.length; i++) {
+                tabcontent__finish[i].style.display = "none";
+            }
+            tablinks__finish = document.getElementsByClassName("tablinks__finish");
+            for (i = 0; i < tablinks__finish.length; i++) {
+                tablinks__finish[i].className = tablinks__finish[i].className.replace(" active__b", "");
+            }
+            document.getElementById(finishName).style.display = "block";
+            evt.currentTarget.className += " active__b";
+        }
+
+        document.getElementById("defaultOpen-b").click();
+    </script>
+
+
+
+
+</body>
+
+</html>

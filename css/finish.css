@@ -1,0 +1,47 @@
+/* Style the tab */
+.tab__balkony {
+  overflow: hidden;
+  
+}
+
+/* Style the buttons inside the tab */
+.tab__balkony a {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 20px;
+  text-decoration: underline dotted;
+  font-weight: 600;
+}
+
+/* Change background color of buttons on hover */
+.tab__balkony a:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab__balkony a.active__b {
+      background-color: #ffffff;
+    font-size: 20px;
+    font-weight: 600;
+      text-align: center;
+      border-top: 10px solid #0d8fe3;
+    color: #0085db;
+        text-decoration: none;
+
+}
+
+/* Style the tab content */
+.tabcontent__finish {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+}
+.balkony__wrapper{
+  display: flex;
+}
